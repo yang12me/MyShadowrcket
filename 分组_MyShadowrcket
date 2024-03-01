@@ -19,8 +19,8 @@ private-ip-answer = true
 dns-direct-fallback-proxy = true
 
 [Proxy Group]
-YouTube = fallback,PROXY,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-Twitter = load-balance,PROXY,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
+YouTube =  load-balance,PROXY,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
+Twitter =  load-balance,PROXY,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
 Telegram = load-balance,PROXY,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
 
 Spotify = load-balance,PROXY,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
@@ -29,7 +29,7 @@ Facebook = load-balance,PROXY,interval=86400,timeout=5,select=0,url=http://www.g
 ChatGPT = load-balance,PROXY,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
 
 Copilot = load-balance,PROXY,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
-GoogleVoice = fallback,PROXY,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
+GoogleVoice = load-balance,PROXY,interval=86400,timeout=5,select=0,url=http://www.gstatic.com/generate_204
 
 
 [Rule]
